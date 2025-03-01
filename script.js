@@ -3,7 +3,7 @@ document.getElementById("submit").addEventListener("click", function () {
     const title = document.getElementById("title");
     const author = document.getElementById("author");
     const isbn = document.getElementById("isbn");
-    const table = document.getElementById("table1");
+    const table = document.getElementById("book-list");
 
     // Insert a new row at the end of the table
     let newRow = table.insertRow(table.rows.length);
